@@ -1,0 +1,5 @@
+-r requirements.txt
+torch>=2.6,<3
+torchvision>=0.21,<1
+scikit-learn>=1.5,<2
+onnx>=1.17,<2

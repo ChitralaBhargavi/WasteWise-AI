@@ -1,0 +1,472 @@
+.navbar-brand {
+  color: #17352a;
+  letter-spacing: -0.03em;
+}
+
+.brand-mark {
+  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 0.7rem;
+  background: #e3f3e9;
+  color: #198754;
+  font-size: 1rem;
+}
+
+.brand-accent {
+  color: #198754;
+}
+
+.hero-section {
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 83% 8%, rgba(195, 231, 204, 0.55), transparent 31rem),
+    linear-gradient(120deg, #f5fbf6 0%, #fff 62%);
+}
+
+.py-lg-6 {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.eyebrow {
+  color: #198754;
+  font-size: 0.77rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-copy {
+  max-width: 39rem;
+}
+
+.hero-art {
+  position: relative;
+  display: grid;
+  min-height: 22rem;
+  overflow: hidden;
+  place-items: end center;
+  border: 1px solid rgba(25, 135, 84, 0.12);
+  border-radius: 2rem;
+  background: linear-gradient(145deg, #e5f4e7, #f6faf0 58%, #d7ebd6);
+}
+
+.sun-orb {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: #f5d77a;
+  opacity: 0.82;
+}
+
+.plant-stem {
+  position: absolute;
+  bottom: 8.4rem;
+  left: 50%;
+  width: 0.55rem;
+  height: 9rem;
+  border-radius: 1rem;
+  background: #398b58;
+  transform: translateX(-50%) rotate(4deg);
+}
+
+.leaf {
+  position: absolute;
+  z-index: 1;
+  width: 4.5rem;
+  height: 2.2rem;
+  border-radius: 100% 0 100% 0;
+  background: #49a968;
+}
+
+.leaf-one {
+  bottom: 15rem;
+  left: calc(50% - 4.3rem);
+  transform: rotate(12deg);
+}
+
+.leaf-two {
+  bottom: 13.3rem;
+  left: calc(50% + 0.2rem);
+  background: #74bb68;
+  transform: rotate(88deg) scaleX(-1);
+}
+
+.leaf-three {
+  bottom: 11.4rem;
+  left: calc(50% - 4.1rem);
+  background: #78bb70;
+  transform: rotate(5deg) scale(0.82);
+}
+
+.recycle-bin {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 8rem;
+  height: 7.6rem;
+  margin-bottom: 4.1rem;
+  place-items: center;
+  border-radius: 0.8rem 0.8rem 1.6rem 1.6rem;
+  background: #228451;
+  box-shadow: 0 1rem 2rem rgba(25, 91, 56, 0.2);
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.recycle-bin::before {
+  position: absolute;
+  top: -0.7rem;
+  width: 8.7rem;
+  height: 0.85rem;
+  border-radius: 1rem;
+  background: #176a40;
+  content: "";
+}
+
+.art-caption {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  color: #42624e;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-heading {
+  max-width: 46rem;
+}
+
+.feature-card,
+.guide-card {
+  border: 1px solid #e6eee8;
+  border-radius: 1.1rem;
+  box-shadow: 0 0.6rem 1.8rem rgba(30, 70, 47, 0.04);
+}
+
+.feature-number {
+  color: #198754;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.guide-section {
+  background: #f6faf6;
+}
+
+.guide-card {
+  background: #fff;
+}
+
+.guide-icon {
+  display: inline-grid;
+  width: 2.8rem;
+  height: 2.8rem;
+  place-items: center;
+  border-radius: 0.9rem;
+  background: #e8f5eb;
+  color: #198754;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.status-panel {
+  border: 1px solid #e3eee5;
+  border-radius: 1.25rem;
+  background: #f6faf6;
+}
+
+.auth-page {
+  min-height: calc(100vh - 4.5rem);
+  background:
+    radial-gradient(ellipse at 10% 10%, rgba(195, 231, 204, 0.5), transparent 28rem),
+    #f7faf7;
+}
+
+.auth-card,
+.account-card {
+  width: min(100%, 32rem);
+  border: 1px solid #e3eee5;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0 1rem 3rem rgba(30, 70, 47, 0.08);
+}
+
+.auth-card {
+  padding: 2rem;
+}
+
+.auth-back-link {
+  color: #198754;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-back-link span {
+  margin-right: 0.35rem;
+}
+
+.auth-card .form-control:focus {
+  border-color: #63a882;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.15);
+}
+
+.account-details {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.account-details div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  border-bottom: 1px solid #e9efea;
+  padding-bottom: 0.75rem;
+}
+
+.account-details dt {
+  color: #617067;
+  font-weight: 600;
+}
+
+.account-details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.report-table-wrap,
+.report-detail-card,
+.report-form-card {
+  border: 1px solid #e3eee5;
+  border-radius: 1.1rem;
+  background: #fff;
+  box-shadow: 0 0.6rem 1.8rem rgba(30, 70, 47, 0.04);
+}
+
+.report-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.report-table-wrap .table {
+  min-width: 38rem;
+}
+
+.report-table-wrap .admin-data-table {
+  min-width: 52rem;
+}
+
+.report-pagination {
+  flex-wrap: wrap;
+}
+
+.report-pagination-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.report-table-wrap thead th {
+  background: #f6faf6;
+  color: #42624e;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.report-empty {
+  border: 1px dashed #c9dccd;
+  border-radius: 1.1rem;
+  background: #f8fbf8;
+}
+
+.report-form-card {
+  max-width: 48rem;
+}
+
+.report-form-card fieldset {
+  border-color: #dce9de !important;
+}
+
+.report-description {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.report-location-map {
+  width: 100%;
+  min-width: 0;
+  margin-top: 0.75rem;
+}
+
+.report-location-map .leaflet-container {
+  height: 22rem;
+  border: 1px solid #dce9de;
+  border-radius: 0.75rem;
+  z-index: 0;
+}
+
+.report-location-map-picker .leaflet-container {
+  height: 25rem;
+}
+
+.report-photo {
+  display: block;
+  max-width: min(100%, 48rem);
+  max-height: 32rem;
+  border: 1px solid #e3eee5;
+  border-radius: 0.75rem;
+  object-fit: contain;
+}
+
+.report-photo-preview {
+  max-height: 20rem;
+}
+
+.status-history {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.status-history li {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 3.5rem;
+  padding: 0.6rem 0 0.6rem 1.5rem;
+  border-left: 2px solid #cfe4d4;
+}
+
+.status-history li::before {
+  position: absolute;
+  left: -0.43rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #198754;
+  content: "";
+}
+
+.admin-panel,
+.admin-metric {
+  border: 1px solid #e3eee5;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1.4rem rgba(30, 70, 47, 0.04);
+}
+
+.admin-panel,
+.report-detail-card,
+.account-card {
+  overflow-wrap: anywhere;
+}
+
+.admin-metric .display-6 {
+  color: #176b3a;
+}
+
+.admin-bars {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-bars .progress {
+  height: 0.55rem;
+  margin-top: 0.35rem;
+  background: #edf4ef;
+}
+
+.admin-activity {
+  display: flex;
+  align-items: end;
+  gap: 0.2rem;
+  height: 9rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #dce9de;
+}
+
+.admin-activity-day {
+  display: flex;
+  flex: 1;
+  align-items: end;
+  height: 100%;
+}
+
+.admin-activity-bar {
+  width: 100%;
+  min-height: 2px;
+  border-radius: 0.2rem 0.2rem 0 0;
+  background: #198754;
+}
+
+@media (max-width: 575.98px) {
+  .report-form-card,
+  .report-detail-card,
+  .admin-panel,
+  .account-card {
+    border-radius: 0.85rem;
+  }
+
+  .report-form-card,
+  .report-detail-card,
+  .admin-panel {
+    padding: 1.25rem !important;
+  }
+
+  .report-pagination {
+    justify-content: center !important;
+  }
+
+  .report-pagination-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .report-pagination-controls .btn {
+    flex: 1;
+  }
+
+  .admin-navigation .btn {
+    flex: 1 1 auto;
+  }
+
+  .navbar-collapse .navbar-nav {
+    align-items: stretch !important;
+    padding: 0.5rem 0 0.75rem;
+  }
+
+  .navbar-collapse .navbar-nav > .btn,
+  .navbar-collapse .navbar-nav > .nav-link {
+    width: 100%;
+  }
+
+  .hero-art {
+    min-height: 18rem;
+  }
+
+  .hero-section .display-3 {
+    font-size: clamp(2.7rem, 12vw, 3.5rem);
+  }
+
+  .auth-card {
+    padding: 1.5rem;
+  }
+}
